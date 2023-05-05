@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+body{
+    height: 100vw;
+    width: 100vh;
+    grid-template-rows: 65px 100px 1fr;
+    display: grid;
+    overflow: hidden
+}
+
+
+header{
+    width: 1440px;
+    height: 65px;
+}
+
+.h1{
+    position: absolute;
+    width: 209px;
+    height: 46px;
+    left: 59px;
+    top: 2px;
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 46px;
+    color: #691900;
+}
+
+.frame6{
+    position: absolute;
+    width: 1440px;
+    height: 30px;
+    left: 0px;
+    top: 48px;
+    background: #E7CCA5;
+}
+
+main{
+    width: 1440px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+footer{
+    width: 1440px;
+    height: 641px;
+   background-color: yellow;
+}
