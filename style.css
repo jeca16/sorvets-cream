@@ -8,16 +8,24 @@
 body{
     height: 100vw;
     width: 100vh;
-    grid-template-rows: 65px 100px 1fr;
+    grid-template-rows: 65px 1fr;
     display: grid;
     overflow: hidden
 }
 
 
 header{
+    display: flex;
     width: 1440vw;
     height: 65vh;
 }
+
+
+
+
+
+
+
 
 h1{
     position: absolute;
@@ -177,8 +185,8 @@ h1{
 
 
 main{
-    width: 1440vw;
-    height: 70vh;
+    width: ;
+    height: 30vh;
 }
 
 h2{
@@ -211,9 +219,11 @@ h3{
 
 }
 
-footer{
+/* footer{
     width: 100vw;
     height: 100vh;
-    background-color: yellow;
-    top: unset;
-}
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
