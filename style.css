@@ -128,14 +128,14 @@ h1{
 
 
 main{
-    width: ;
-    height: 30vh;
+    width: 100vw;
+    height: 98vh;
 }
 
 h2{
     position: absolute;
     width: 471vw;
-    height: 113vh;
+    height: 111vh;
     left: 416px;
     top: 78px;
     font-family: 'Mouse Memoirs';
@@ -150,7 +150,7 @@ h2{
 h3{
     position: absolute;
     width: 761vw;
-    height: 41vh;
+    height: 38vh;
     left: 235px;
     top: 150px;
     font-family: 'Mouse Memoirs';
@@ -162,11 +162,39 @@ h3{
 
 }
 
-/* footer{
-    width: 100vw;
-    height: 100vh;
+.logo{
+    background-color: white;
+    height: 22vh;
+}
+
+.container3 img{
     background-image: url(./img/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+    height: 72vh;
+    width: 100vw;
+}
+
+.frame3{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 591px;
+    gap: 10px;
+    position: absolute;
+    justify-content: center;
+    width: 100vw;
+    height: 13vh;
+    left: 0px;
+    top: 196px;
+    background: #571F00;
+    border-radius: 0px 0px 900px 900px;
+}
+
+h4{
+    width: 20vw;
+    height: 25vh;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
 
