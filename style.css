@@ -215,6 +215,7 @@ h3{
 .foto-sorvete img{
     width: 60vw;
     height: 40vh;
+    position: absolute;
     
 }
 
@@ -242,4 +243,22 @@ h4{
     color: #FFFFFF;
 }
 
+.seta1{
+    position: absolute;
+    width: 8vw;
+    height: 18vh;
+    left: 190px;
+    top: 400px;
+    background: rgba(228, 219, 206, 0.8);
+    border-radius: 70px;
+}
 
+.seta2{
+    position: absolute;
+    width: 8vw;
+    height: 18vh;
+    left: 1000px;
+    top: 400px;
+    background: rgba(228, 219, 206, 0.8);
+    border-radius: 70px;
+}
