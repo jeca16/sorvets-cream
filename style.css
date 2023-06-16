@@ -47,6 +47,11 @@ h1{
     border-radius: 9px;
 }
 
+.foto__casa img{
+    width: 3vw;
+    height: 7vh;
+    margin-left: 10px;
+}
 
 .inicio{
     position: absolute;
@@ -61,6 +66,17 @@ h1{
     line-height: 20px;
     color: #FFFFFF;
 }
+.foto__telefone{
+    height: 100%;
+}
+
+.foto__telefone img{
+    width: 20%;
+    height: 100%;
+    margin-left: 140px;
+    position: absolute;
+    top: 2px;
+}
 
 .contato{
     position: absolute; 
@@ -73,6 +89,14 @@ h1{
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
+}
+
+.foto__carro img{
+    width: 3vw;
+    height: 7vh;
+    margin-left: 264px;
+    position: absolute;
+    top: 1px;
 }
 
 .entrega{
@@ -89,6 +113,14 @@ h1{
     color: black;
 }
 
+.foto__perfil img{
+    width: 3vw;
+    height: 7vh;
+    margin-left: 610px;
+    position: absolute;
+    top: -2px;
+
+}
 
 .cadastre-se{
     position: absolute;
@@ -103,6 +135,13 @@ h1{
     line-height: 40px;
 }
 
+.foto__porta img{
+    width: 3vw;
+    height: 7vh;
+    top: -2px;
+    position: absolute;
+    margin-left: 790px;
+}
 
 .entrar{
     position: absolute;
@@ -171,6 +210,12 @@ h3{
     background-image: url(./img/background.png);
     height: 72vh;
     width: 100vw;
+}
+
+.foto-sorvete img{
+    width: 60vw;
+    height: 40vh;
+    
 }
 
 .frame3{
